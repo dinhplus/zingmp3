@@ -27,11 +27,12 @@
     padding: 10px;
 }
 
-.component-1 .albumns .item:hover img {
-    width: 102%;
-    height: 102%;
+.item:hover img{
+    transition: all 1s;
+    width: 200px;
+    /* height: 102%; */
 }
 
-.component-1 .albumns .item img {
-    transition: all 1s;
+.item img{
+    transition: all 1s ease;
 }
